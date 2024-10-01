@@ -1,0 +1,81 @@
+/* General styling for the quiz app container */
+.quiz-app {
+  max-width: 600px;
+  height: 400px;
+  margin: 90px auto;
+  padding: 20px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+/* Title styling */
+.quiz-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the question section */
+.question-section {
+  margin-bottom: 20px;
+}
+
+.question-count {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.question-text {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Styling for options (radio buttons) */
+.options-section {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.option input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Styling for the submit button */
+.submit-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+/* Styling for the score section */
+.score-section {
+  text-align: center;
+  margin: 100px 50px;
+  font-size: 1.5rem;
+  color: #333;
+}
